@@ -4,7 +4,9 @@
   "description": "first trial for 2_1",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",

@@ -5,8 +5,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-11-02T19:04:20.918Z",
-    "end": "2025-11-02T19:04:20.924Z",
+    "start": "2025-11-02T19:23:34.751Z",
+    "end": "2025-11-02T19:23:34.757Z",
     "duration": 6,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "079d683b-05e8-4a24-90f8-c9750546c4b0",
+      "uuid": "8a0147ed-b48a-40f3-8cfb-4319afadb32b",
       "title": "",
       "fullFile": "M:\\Internship\\Home2\\2_1\\test\\numbers-validator\\isNumberEven.spec.js",
       "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ce92aeb5-8c00-4946-ab13-b55a88183c18",
+          "uuid": "c9f30cba-ec03-402b-bad2-58154cad176f",
           "title": "isNumberEven",
           "fullFile": "M:\\Internship\\Home2\\2_1\\test\\numbers-validator\\isNumberEven.spec.js",
           "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -43,10 +43,10 @@
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// Instantiates a new NumbersValidator object before each test and assigns it to 'validator'\nvalidator = new NumbersValidator();",
+              "code": "validator = new NumbersValidator();",
               "err": {},
-              "uuid": "970eeb89-2ca3-42f9-92a9-e9c8c44f8f3d",
-              "parentUUID": "ce92aeb5-8c00-4946-ab13-b55a88183c18",
+              "uuid": "f1e32109-a732-448c-9cc6-63d5aee0c0a3",
+              "parentUUID": "c9f30cba-ec03-402b-bad2-58154cad176f",
               "isHook": true,
               "skipped": false
             }
@@ -63,10 +63,10 @@
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// Sets the validator variable to null to clean up memory after each test\nvalidator = null;",
+              "code": "validator = null;",
               "err": {},
-              "uuid": "37c4758b-3a0e-48b2-9bc0-6486a22264df",
-              "parentUUID": "ce92aeb5-8c00-4946-ab13-b55a88183c18",
+              "uuid": "0fc7a510-51ca-4a2a-87b5-3b279f7ae26a",
+              "parentUUID": "c9f30cba-ec03-402b-bad2-58154cad176f",
               "isHook": true,
               "skipped": false
             }
@@ -83,17 +83,17 @@
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "// Using 'expect' to assert that the 'isNumberEven' method returns true when\n// passed the even number 4. The '.to.be.equal(true)' is the actual assertion check.\nexpect(validator.isNumberEven(4)).to.be.equal(true);",
+              "code": "expect(validator.isNumberEven(4)).to.be.equal(true);",
               "err": {},
-              "uuid": "b034fa8e-2dfd-4bc9-9d05-807f250598a1",
-              "parentUUID": "ce92aeb5-8c00-4946-ab13-b55a88183c18",
+              "uuid": "381ac797-8de4-4abd-bbe2-c2707c4322e5",
+              "parentUUID": "c9f30cba-ec03-402b-bad2-58154cad176f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b034fa8e-2dfd-4bc9-9d05-807f250598a1"
+            "381ac797-8de4-4abd-bbe2-c2707c4322e5"
           ],
           "failures": [],
           "pending": [],
